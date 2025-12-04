@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BABB1AC2ED7AD4E00465766 /* Glanceablev2 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1BABB1AB2ED7AD4E00465766 /* Glanceablev2 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1BABB1AC2ED7AD4E00465766 /* Glanceablev3 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1BABB1AB2ED7AD4E00465766 /* Glanceablev3 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +27,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				1BABB1AC2ED7AD4E00465766 /* Glanceablev2 Watch App.app in Embed Watch Content */,
+				1BABB1AC2ED7AD4E00465766 /* Glanceablev3 Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,8 +35,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1BABB1A52ED7AD4E00465766 /* Glanceablev2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glanceablev2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BABB1AB2ED7AD4E00465766 /* Glanceablev2 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glanceablev2 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BABB1A52ED7AD4E00465766 /* Glanceablev3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glanceablev3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BABB1AB2ED7AD4E00465766 /* Glanceablev3 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glanceablev3 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -69,8 +69,8 @@
 		1BABB1A62ED7AD4E00465766 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BABB1A52ED7AD4E00465766 /* Glanceablev2.app */,
-				1BABB1AB2ED7AD4E00465766 /* Glanceablev2 Watch App.app */,
+				1BABB1A52ED7AD4E00465766 /* Glanceablev3.app */,
+				1BABB1AB2ED7AD4E00465766 /* Glanceablev3 Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1BABB1A42ED7AD4E00465766 /* Glanceablev2 */ = {
+		1BABB1A42ED7AD4E00465766 /* Glanceablev3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BABB1BC2ED7AD4F00465766 /* Build configuration list for PBXNativeTarget "Glanceablev2" */;
+			buildConfigurationList = 1BABB1BC2ED7AD4F00465766 /* Build configuration list for PBXNativeTarget "Glanceablev3" */;
 			buildPhases = (
 				1BABB1A32ED7AD4E00465766 /* Resources */,
 				1BABB1BB2ED7AD4F00465766 /* Embed Watch Content */,
@@ -90,16 +90,16 @@
 			dependencies = (
 				1BABB1AE2ED7AD4E00465766 /* PBXTargetDependency */,
 			);
-			name = Glanceablev2;
+			name = Glanceablev3;
 			packageProductDependencies = (
 			);
 			productName = Glanceablev2;
-			productReference = 1BABB1A52ED7AD4E00465766 /* Glanceablev2.app */;
+			productReference = 1BABB1A52ED7AD4E00465766 /* Glanceablev3.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		1BABB1AA2ED7AD4E00465766 /* Glanceablev2 Watch App */ = {
+		1BABB1AA2ED7AD4E00465766 /* Glanceablev3 Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BABB1B82ED7AD4F00465766 /* Build configuration list for PBXNativeTarget "Glanceablev2 Watch App" */;
+			buildConfigurationList = 1BABB1B82ED7AD4F00465766 /* Build configuration list for PBXNativeTarget "Glanceablev3 Watch App" */;
 			buildPhases = (
 				1BABB1A72ED7AD4E00465766 /* Sources */,
 				1BABB1A82ED7AD4E00465766 /* Frameworks */,
@@ -112,11 +112,11 @@
 			fileSystemSynchronizedGroups = (
 				1BABB1AF2ED7AD4E00465766 /* Glanceablev2 Watch App */,
 			);
-			name = "Glanceablev2 Watch App";
+			name = "Glanceablev3 Watch App";
 			packageProductDependencies = (
 			);
 			productName = "Glanceablev2 Watch App";
-			productReference = 1BABB1AB2ED7AD4E00465766 /* Glanceablev2 Watch App.app */;
+			productReference = 1BABB1AB2ED7AD4E00465766 /* Glanceablev3 Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1BABB1A22ED7AD4E00465766 /* Build configuration list for PBXProject "Glanceablev2" */;
+			buildConfigurationList = 1BABB1A22ED7AD4E00465766 /* Build configuration list for PBXProject "Glanceablev3" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -151,8 +151,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BABB1A42ED7AD4E00465766 /* Glanceablev2 */,
-				1BABB1AA2ED7AD4E00465766 /* Glanceablev2 Watch App */,
+				1BABB1A42ED7AD4E00465766 /* Glanceablev3 */,
+				1BABB1AA2ED7AD4E00465766 /* Glanceablev3 Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -187,7 +187,7 @@
 /* Begin PBXTargetDependency section */
 		1BABB1AE2ED7AD4E00465766 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1BABB1AA2ED7AD4E00465766 /* Glanceablev2 Watch App */;
+			target = 1BABB1AA2ED7AD4E00465766 /* Glanceablev3 Watch App */;
 			targetProxy = 1BABB1AD2ED7AD4E00465766 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -396,7 +396,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BABB1A22ED7AD4E00465766 /* Build configuration list for PBXProject "Glanceablev2" */ = {
+		1BABB1A22ED7AD4E00465766 /* Build configuration list for PBXProject "Glanceablev3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BABB1B62ED7AD4F00465766 /* Debug */,
@@ -405,7 +405,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BABB1B82ED7AD4F00465766 /* Build configuration list for PBXNativeTarget "Glanceablev2 Watch App" */ = {
+		1BABB1B82ED7AD4F00465766 /* Build configuration list for PBXNativeTarget "Glanceablev3 Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BABB1B92ED7AD4F00465766 /* Debug */,
@@ -414,7 +414,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BABB1BC2ED7AD4F00465766 /* Build configuration list for PBXNativeTarget "Glanceablev2" */ = {
+		1BABB1BC2ED7AD4F00465766 /* Build configuration list for PBXNativeTarget "Glanceablev3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BABB1BD2ED7AD4F00465766 /* Debug */,
